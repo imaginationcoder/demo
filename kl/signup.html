@@ -77,7 +77,7 @@
           <div class="formFieldTable">
             <div class="formFieldCell formLeftSide"><span class="fieldLabel"><img src="earth_icon.png"/></span></div>
             <div class="formFieldCell formRightSide fieldBorder">
-              <input class="zipCode not_required" id="zipcode" name="text" placeholder="enter postal code" type="text">
+              <input class="zipCode not_required" id="zipcode" name="text" placeholder="postal code" type="text">
             </div>
           </div>
 
@@ -168,12 +168,14 @@ html, body {
 
 .formRightSide{
   width:80% !important;
+  vertical-align: middle;
 }
 
 .formFieldTable2{
   display: table;
   width:100%;
 }
+
 
 .formFieldTable3{
   display: table;
@@ -182,16 +184,19 @@ html, body {
 
 
 .fieldBorder{
-  border: 1px solid #cfcecd;
+  border: 2px solid #cfcecd;
   border-radius: 10px;
+  height:91px;
 }
 
 .formFieldCell2{
   display: table-cell;
+  vertical-align: middle;
 }
 
 .formFieldCell3{
   display: table-cell;
+  vertical-align: middle;
 }
 
 
@@ -243,14 +248,14 @@ html, body {
 
 .formFieldTable input, select {
     background: #fff;
-    padding: 18px 0 10px 25px;
+    padding-left:25px;
     border: 0;
     font-family: 'HelveticaNeueLTStd-Md' !important;
     font-size: 32px;
     line-height: 46px;
     /*color: #ccc;*/
     font-weight: normal;
-    margin: 7px 0;
+    /*margin: 7px 0;*/
     border-radius: 10px !important;
 }
 
@@ -259,12 +264,12 @@ html, body {
     background: #fff !important;
     padding: 0 8px;
     height: 74px;
-    top: 7px;
+    top: 9px;
 }
 
 .cepearatotIcon {
     position: absolute;
-    border-left: 1px solid #ccc;
+    border-left: 2px solid #ccc;
     height: 50px;
     top: 13px;
 }
